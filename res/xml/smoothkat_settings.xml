@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:title="@string/system_interface_title"
+    xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
+
+<PreferenceScreen
+        android:fragment="com.android.settings.smoothkat.NavRing"
+        android:key="navigation_ring"
+        android:title="@string/navigation_ring_title" />
+</PreferenceScreen>
